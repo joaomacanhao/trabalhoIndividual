@@ -1,0 +1,29 @@
+Arquivo de configuração passo a passo do git e github
+
+comando e instruções:
+
+sudo yum install git ---> para instalar o git
+
+git config --global user.name "nome" ---> para configurar o nome
+
+git config --global user.email "email" ---> para informar o nome que o git usara para login
+
+git add "arquivo" ---> para adicionar o arquivo que seja versionado
+
+git commit ---> para dar commit no arquivo
+
+CONFIGURAR A CHAVE SSH PARA USO NO GIT
+
+ssh-keygen ---> par acriar a chave pública e privada
+
+eval 'ssh-agent' 
+
+ssh-add "nome da chave privada (a que nao tem .pub)
+
+LINK DO REPOSITORIO DO GITHUB E PUSH
+
+git remote add origin "link ssh do repo"
+
+git branch ---> caso queira saber o nome da master
+
+git push origin master
